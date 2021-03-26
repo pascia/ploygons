@@ -32,7 +32,7 @@ def program():
                 y = Py-Ay
                 
                 WA=(x*(by-cy)+y*(cx-bx)+bx*cy-cx*by)/d
-                WB=(x*cy-y*cx)/d#
+                WB=(x*cy-y*cx)/d
                 WC=(y*bx-x*by)/d
         
                 if 1>=WA>=0 and 1>=WB>=0 and 1>=WC>=0:
