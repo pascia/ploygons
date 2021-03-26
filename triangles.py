@@ -127,9 +127,9 @@ def program():
         drawing = Polynom(input("1.x:"),input("2.x:"),input("3.x:"),input("1.y:"),input("2.y:"),input("3.y:"))
     while True:
         inputcmd = input("command:")
-        if inputcmd == "addpoint":
+        if inputcmd == "addpoint":#
             drawing.addpoint(input("new X:"),input("new Y:"),input("Connection1:"),input("Connection2:"),True)
-        elif inputcmd == "rotate":
+        elif inputcmd == "rotate":#
             drawing.rotate()                            
         elif inputcmd == "stop":
             exit(1)
